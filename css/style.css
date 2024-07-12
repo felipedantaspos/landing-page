@@ -184,3 +184,12 @@ body {
   justify-content: space-between;
   box-sizing: border-box;
 }
+
+footer {
+  text-align: center;
+  padding: 48px;
+}
+
+footer p {
+  color: #f9faf8;
+}
