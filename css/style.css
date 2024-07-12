@@ -32,6 +32,10 @@ body {
   background-color: #e5e7eb;
 }
 
+.blue-bg {
+  background-color: #3882f6;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -77,9 +81,9 @@ body {
   color: #e5e7eb;
 }
 
-.info button {
+.button {
   padding: 8px 32px;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #3882f6;
   color: #f9faf8;
   font-weight: 600;
@@ -133,6 +137,7 @@ body {
 
 .info-cards {
   display: flex;
+  gap: 40px;
 }
 
 .quote p {
@@ -152,4 +157,30 @@ body {
   margin: 100px auto;
   display: flex;
   flex-direction: column;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.sing-up h4 {
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.sing-up p {
+  color: #e5e7eb;
+}
+
+.sing-up .button {
+  border: solid 1px white;
+}
+
+.sing-up {
+  margin: 100px auto;
+  min-width: 1000px;
+  border-radius: 16px;
+  padding: 40px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
