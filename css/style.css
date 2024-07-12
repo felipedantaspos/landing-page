@@ -28,6 +28,15 @@ body {
   background-color: #1f2937;
 }
 
+.grey-bg {
+  background-color: #e5e7eb;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .header h1 {
   font-size: 24px;
   color: #f9faf8;
@@ -90,7 +99,6 @@ body {
   padding: 0 16px;
   gap: 40px;
   justify-content: space-between;
-  max-width: 1000px;
   margin: 100px auto;
 }
 
@@ -126,4 +134,7 @@ body {
 
 .info-cards {
   display: flex;
+}
+
+.quote-container {
 }
