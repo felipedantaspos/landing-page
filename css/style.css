@@ -102,15 +102,14 @@ body {
   margin: 100px auto;
 }
 
-.info-container h3 {
+.card-info h3 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
   margin-bottom: 50px;
 }
 
-.info-container {
-  max-width: 1000px;
+.card-info {
   margin: 50px auto 100px;
   display: flex;
   flex-direction: column;
@@ -136,5 +135,21 @@ body {
   display: flex;
 }
 
-.quote-container {
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  color: black;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.quote {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
 }
